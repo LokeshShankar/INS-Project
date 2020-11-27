@@ -1,0 +1,28 @@
+.graph {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 'pie-chart-1 pie-chart-2 pie-chart-3'
+    'bar-chart-1 bar-chart-2 show-name'
+  
+}
+
+.pie-chart-1 {
+  grid-area: 'pie-chart-1';
+}
+
+.pie-chart-2 {
+  grid-area: 'pie-chart-2';
+}
+
+.pie-chart-3 {
+  grid-area: 'pie-chart-3';
+}
+
+.bar-chart-1 {
+  grid-area: 'bar-chart-1';
+}
+
+.bar-chart-2 {
+  grid-area: 'bar-chart-2';
+}
